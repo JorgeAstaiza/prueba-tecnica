@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AngularWaitBarrier } from 'blocking-proxy/built/lib/angular_wait_barrier';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'proyecto-valvulas';
+
+  
+  //nombreUsuario = document.getElementById('nombreUsuario');
+  //contraseñaUsuario = document.getElementById('contraseña');
+
 }

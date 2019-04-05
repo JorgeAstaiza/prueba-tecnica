@@ -1,0 +1,31 @@
+.contenedor{
+    box-shadow: 2px;
+    background: white;
+    box-shadow: 0px 0px 23px 2px rgba(0,0,0,0.75);
+    justify-content: center;
+    padding-top: 25px;
+}
+.container ul{
+    list-style: none;
+    padding: 0;
+}
+.container li{
+    padding: 5px 0 5px 0;
+}
+.acciones a{
+    margin-right: 8px;
+    
+    text-decoration: none;
+    color:white;    
+    padding: 5px;
+    border-radius: 3px;
+}
+.editar{
+    background-color: orange;
+}
+.ver{
+    background-color: green;
+}
+.eliminar{
+    background-color: red;
+}
